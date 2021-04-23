@@ -1,0 +1,49 @@
+@charset "utf-8";
+
+.appframe {
+    background-color: #ffffff;
+    width: 400px;
+    margin: 50px auto;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+
+body {
+    margin: auto;
+    text-align: center;
+    background-color: #333333;
+}
+
+h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+img {
+    width: 250px;
+    object-fit: cover;
+    padding: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0px;
+}
+
+li {
+    border-bottom: solid 1px #dcdcdc;
+    padding: 3px;
+    cursor: pointer;
+}
+
+li:hover {
+    background-color: red;
+    color: #333333;
+    
+}
+
+.active {
+    background-color: #666;
+    color: red;
+}
